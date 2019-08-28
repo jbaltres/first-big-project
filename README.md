@@ -14,5 +14,5 @@
 - [x] Build HTML structure
 - [x] Build aside with the picture and the input fields
 - [x] build main
-- [ ] design with scss
+- [x] design with scss
 - [ ] show the content of inputfields in picture with js

@@ -11,3 +11,65 @@ $lightgreen: rgba(158, 193, 184, 1);
 $green: rgba(110, 158, 175, 1);
 $lighter: rgba(114, 105, 149, 1);
 $darker: rgba(51, 31, 56, 1);
+
+body {
+  background-color: $backgroundyellow;
+  margin: 0;
+  display: flex;
+  flex-grow: 1;
+  height: 100vh;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  background-color: $darker;
+  text-align: center;
+  padding-top: auto;
+  color: $lightgreen;
+}
+
+.little-image {
+  width: $sidewidth;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.flexmain {
+  display: flex;
+  flex-direction: row;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  width: 200px;
+  background-color: $backgroundyellow;
+}
+
+.inputfields {
+  display: flex;
+  flex-direction: column;
+  width: $sidewidth;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+input {
+  margin-top: 7px;
+  width: $sidewidth;
+}
+
+.bigpicture {
+  margin: 10px 10px 10px 10px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  background-color: $lightgreen;
+}
