@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+$sidewidth: 150px;
+/* Color Theme Swatches in RGBA */
+$backgroundyellow: rgba(242, 230, 193, 1);
+$lightgreen: rgba(158, 193, 184, 1);
+$green: rgba(110, 158, 175, 1);
+$lighter: rgba(114, 105, 149, 1);
+$darker: rgba(51, 31, 56, 1);
