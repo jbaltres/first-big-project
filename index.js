@@ -1,4 +1,5 @@
-/*let formInput1 = document.querySelector(".first");
+"use strict";
+/* let formInput1 = document.querySelector(".first");
 let formOutput1 = document.querySelector(".output1");
 let formInput2 = document.querySelector(".second");
 let formOutput2 = document.querySelector(".output2");
@@ -26,11 +27,29 @@ formInput3.addEventListener("keyup", generateText3);
 formInput4.addEventListener("keyup", generateText4);
 */
 
-let canvas = document.querySelector(".canvas");
-let ctx = canvas.getContext("2d");
+const canvas = document.querySelector(".canvas");
+const ctx = canvas.getContext("2d");
+const img = document.querySelector(".little_image");
 
-const image = document.querySelector(".little-image");
-image.src =
-  "http://www.team-bhp.com/forum/attachments/travelogues/1079291d1367318179-bolero-4wd-takes-us-sandakphu-3rd-time-dsc_1018.jpg";
+ctx.drawImage(img, 0, 0, 100, 100);
 
-ctx.drawImage(image, 0, 0, 100, 100);
+//-----------
+
+// let c = document.getElementById("canvas");
+// let ctx = c.getContext("2d");
+// let img = document.getElementById("little-image");
+// ctx.drawImage(img, 0, 0);
+
+// function drawImage(text) {
+//   const canvas = document.getElementById("canvas");
+//   const ctx = canvas.getContext("2d");
+//   ctx.clearRect(0, 0, canvas.width, canvas.height);
+//   const img = document.getElementById("little-image");
+//   ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+// }
+
+// document.getElementById("litte-image").addEventListener("click", drawImage);
+
+// window.onload = function() {
+//   drawImage();
+// };
