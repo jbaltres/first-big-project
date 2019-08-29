@@ -16,5 +16,5 @@
 - [x] build main
 - [x] design with scss
 - [x] name the Inputfields with JS
-- [ ] show the content of Inputfields, anywhere in main
-- [ ] show the content of inputfields in picture with js
+- [x] show the content of Inputfields, anywhere in main
+- [ ] show the content of inputfields in canvas with js
