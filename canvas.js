@@ -26,7 +26,7 @@ export function updatePreview() {
     previewCanvas.height
   );
 
-  previewCanvasContext.font = "16px Coming Soon";
+  previewCanvasContext.font = "16px Cyber Monkey";
   previewCanvasContext.fillStyle = "white";
   previewCanvasContext.textAlign = "center";
   previewCanvasContext.shadowColor = "black";
