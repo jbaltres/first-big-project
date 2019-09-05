@@ -22,3 +22,4 @@
 - [x] style font with fonts.google
 - [ ] integrate transition
 - [ ] make modules
+- [ ] show the content of inputfields in canvas with js
