@@ -17,4 +17,9 @@
 - [x] design with scss
 - [x] name the Inputfields with JS
 - [x] show the content of Inputfields, anywhere in main
+- [x] show the content of inputfields in picture with js
+- [x] position inputfields with js
+- [x] style font with fonts.google
+- [ ] integrate transition
+- [ ] make modules
 - [ ] show the content of inputfields in canvas with js

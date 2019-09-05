@@ -27,9 +27,10 @@ header {
   text-align: center;
   padding-top: auto;
   color: $lightgreen;
+  font-family: "Coming Soon", cursive;
 }
 
-.little-image {
+.little_image {
   width: $sidewidth;
   height: 150px;
   margin-top: 10px;
@@ -68,4 +69,11 @@ input {
 
 main {
   flex-grow: 1;
+  background-color: $green;
+}
+
+.canvas {
+  border: black 2px solid;
+  margin: 50px;
+  margin-left: 100px;
 }
