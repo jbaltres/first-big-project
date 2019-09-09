@@ -1,9 +1,7 @@
+import { getText } from "./spitzen.js";
+
 const previewCanvas = document.querySelector(".canvas");
 const previewCanvasContext = previewCanvas.getContext("2d");
-
-const text1 = document.querySelector(".first");
-const text2 = document.querySelector(".second");
-const text3 = document.querySelector(".third");
 
 const generatorImage = document.querySelector(".little_image");
 
@@ -33,13 +31,44 @@ export function updatePreview() {
   previewCanvasContext.shadowBlur = 6;
   previewCanvasContext.shadowOffsetX = 3;
   previewCanvasContext.shadowOffsetY = 3;
-  previewCanvasContext.fillText(text1.value, 120, 260);
-  previewCanvasContext.fillText(text2.value, 290, 280);
-  previewCanvasContext.fillText(text3.value, 420, 240);
+  previewCanvasContext.fillText(getText(0), 120, 260);
+  previewCanvasContext.fillText(getText(1), 290, 280);
+  previewCanvasContext.fillText(getText(2), 420, 240);
 }
 
-text1.addEventListener("input", updatePreview);
-text2.addEventListener("input", updatePreview);
-text3.addEventListener("input", updatePreview);
-
 updatePreview();
+
+// const previewCanvas = document.querySelector(".preview__canvas");
+// const previewCanvasContext = previewCanvas.getContext("2d");
+// const generatorImage = document.querySelector(".generator__img");
+
+// export function updatePreview() {
+//   previewCanvas.width = generatorImage.naturalWidth;
+//   previewCanvas.height = generatorImage.naturalHeight;
+
+//   previewCanvasContext.clearRect(
+//     0,
+//     0,
+//     previewCanvas.width,
+//     previewCanvas.height
+//   );
+
+//   previewCanvasContext.drawImage(
+//     generatorImage,
+//     0,
+//     0,
+//     previewCanvas.width,
+//     previewCanvas.height
+//   );
+
+//   previewCanvasContext.font = "60px Arial";
+//   previewCanvasContext.fillStyle = "white";
+//   previewCanvasContext.textAlign = "center";
+//   previewCanvasContext.shadowColor = "black";
+//   previewCanvasContext.shadowBlur = 6;
+//   previewCanvasContext.shadowOffsetX = 3;
+//   previewCanvasContext.shadowOffsetY = 3;
+//   previewCanvasContext.fillText(getText(0), 400, 600);
+//   previewCanvasContext.fillText(getText(1), 840, 390);
+//   previewCanvasContext.fillText(getText(2), 1220, 510);
+// }

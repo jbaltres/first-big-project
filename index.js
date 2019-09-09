@@ -1,8 +1,11 @@
 "use strict";
 
 import { updatePreview } from "./canvas.js";
+import { initTextInputs } from "./form.js";
 
+initTextInputs();
 updatePreview();
+
 // /* let formInput1 = document.querySelector(".first");
 // let formOutput1 = document.querySelector(".output1");
 // let formInput2 = document.querySelector(".second");
