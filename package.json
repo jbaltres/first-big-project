@@ -20,7 +20,9 @@
     "url": "https://github.com/jbaltres/first-big-project/issues"
   },
   "homepage": "https://github.com/jbaltres/first-big-project#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.3.0",
     "sass": "^1.23.0-module.beta.1"
   }
 }
