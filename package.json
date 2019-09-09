@@ -1,0 +1,26 @@
+{
+  "name": "first-big-project",
+  "version": "1.0.0",
+  "description": "memes",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch input.scss index.css",
+    "test": "hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaltres/first-big-project.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "author": "jbaltres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbaltres/first-big-project/issues"
+  },
+  "homepage": "https://github.com/jbaltres/first-big-project#readme",
+  "dependencies": {
+    "sass": "^1.23.0-module.beta.1"
+  }
+}
